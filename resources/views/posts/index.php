@@ -36,7 +36,7 @@
                 <tbody>
                     <!-- Sample Data (Replace with your dynamic data) -->
                     <?php if ($posts): ?>
-                         <?php foreach ($posts['data'] as $post): ?>
+                         <?php foreach ($posts as $post): ?>
                               <tr>
                                    <td class="border p-4"><?= $post['title'] ?? 'Title not available' ?></td>
                                    <td class="border p-4"><?= $post['author'] ?? 'Title not available' ?></td>

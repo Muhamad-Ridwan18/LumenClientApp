@@ -13,10 +13,10 @@
         <!-- Post Details -->
         <div class="mb-6">
             <h2 class="text-2xl font-bold mb-4 text-blue-600"><?= $post['title'] ?? 'Title not available' ?></h2>
-            <p class="text-gray-600 mb-2"><?= $post['author'] ?? 'author not available' ?></p>
-            <p class="text-gray-600 mb-2">Category: Technology</p>
-            <p class="text-gray-600 mb-2">Status: Published</p>
-            <p class="text-gray-600 mb-2">Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <h5 class="text-gray-600 font-bold mb-2"><?= $h5ost['author'] ?? 'author not available' ?></h5>
+            <h5 class="text-gray-600 font-bold mb-2">Category: Technology</h5>
+            <h5 class="text-gray-600 font-bold mb-2">Status: published</h5>
+            <h5 class="text-gray-600 font-bold mb-2">Content: Lorem ih5sum dolor sit amet, consectetur adih5iscing elit...</h5>
             <div class="mb-4">
                 <img src="http://localhost:8000/public/posts/image/<?=  $post['image'] ?? 'author not available' ?>" alt="<?= $post['image'] ?? 'author not available' ?>" class="w-full h-auto rounded shadow-lg">
             </div>

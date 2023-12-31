@@ -18,6 +18,7 @@ $router->get('/', function () use ($router) {
 });
 
 
-$router->get('/posts', 'PostController@fetchPosts');
+$router->get('/posts-json', 'PostController@fetchPostsWithJson');
+$router->get('/posts-xml', 'PostController@fetchPostsWithXml');
 $router->get('/posts/{id}', 'PostController@showPosts');
 
